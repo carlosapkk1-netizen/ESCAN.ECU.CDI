@@ -1,0 +1,6 @@
+{
+  "name": "Honda Diagnostics Web",
+  "description": "Uma ferramenta de diagnóstico baseada em falhas (piscadas da luz MIL) de ECU/CDI de motocicletas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
