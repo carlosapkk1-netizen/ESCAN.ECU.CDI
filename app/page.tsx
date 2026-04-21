@@ -73,14 +73,9 @@ export default function HondaDiagnostics() {
                     {/* Header Image & Title */}
                     <div className="flex flex-col items-center mb-6">
                         <img 
-                            src="https://raw.githubusercontent.com/carlosapkk1/honda-diagnostics/main/public/logo.png" 
+                            src="https://raw.githubusercontent.com/carlosapkk1/honda-diagnostics/main/public/logo1.png" 
                             alt="Scan ECU CDI"
                             className="w-52 mx-auto mb-4 drop-shadow-[0_0_15px_rgba(0,255,100,0.5)]"
-                            onError={(e) => {
-                                // Fallback para logo local na pasta public que também chamaremos logo.png, logo1.png ou a original
-                                e.currentTarget.onerror = null; 
-                                e.currentTarget.src = "/logo1.png";
-                            }}
                         />
 
                         <div className="flex items-center space-x-2">
